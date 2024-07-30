@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{fontFamily: "Inter, sans-serif"}}>{children}</body>
     </html>
   );
 }
